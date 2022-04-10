@@ -18,7 +18,7 @@ public class Main {
 
         System.out.println();
 
-        int [] reversFirst = {'1', '2', '3'};
+        int [] reversFirst = {1, 2, 3};
         for (int i = reversFirst.length - 1; i >= 0 ; i--) {
             System.out.println(reversFirst[i]);
         }
@@ -40,7 +40,7 @@ public class Main {
         System.out.println();
 
         double [] reversSecond = {1.57, 7.654, 9.986};
-        for (int i = reversSecond.length; i < 0; i--) {
+        for (int i = reversSecond.length - 1; i >= 0; i--) {
             System.out.println(reversSecond[i]);
         }
         System.out.println();
@@ -67,7 +67,7 @@ public class Main {
         System.out.println();
 
         char [] reversThird = {16, 19, 21, 23, 25};
-        for (int i = reversThird.length; i < 0; i--) {
+        for (int i = reversThird.length - 1; i >= 0; i--) {
             System.out.println(reversThird[i]);
         }
         System.out.println();

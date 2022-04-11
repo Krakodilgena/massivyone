@@ -18,10 +18,11 @@ public class Main {
 
         System.out.println();
 
-        int [] reversFirst = {1, 2, 3};
-        for (int i = reversFirst.length - 1; i >= 0 ; i--) {
-            System.out.println(reversFirst[i]);
-        }
+            int[] reversFirst = {1, 2, 3};
+            for (int i = reversFirst.length - 1; i >= 0; i--) {
+                if (i != 0)
+                System.out.println(reversFirst[i]);
+            }
         System.out.println();
 
         double [] weight = new double[3];
@@ -41,6 +42,7 @@ public class Main {
 
         double [] reversSecond = {1.57, 7.654, 9.986};
         for (int i = reversSecond.length - 1; i >= 0; i--) {
+            if (i != 0)
             System.out.println(reversSecond[i]);
         }
         System.out.println();
@@ -68,6 +70,7 @@ public class Main {
 
         char [] reversThird = {16, 19, 21, 23, 25};
         for (int i = reversThird.length - 1; i >= 0; i--) {
+            if (i != 0)
             System.out.println(reversThird[i]);
         }
         System.out.println();

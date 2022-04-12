@@ -9,19 +9,20 @@ public class Main {
         weights [1] = 2;
         weights [2] = 3;
 
-        int firstWeights = weights [0];
-        int secondWeights = weights [1];
-        int thirdWeights = weights [2];
-        System.out.println(firstWeights);
-        System.out.println(secondWeights);
-        System.out.println(thirdWeights);
+
+        for (int i = 0; i < weights.length; i++) {
+            System.out.println(weights[i]);
+            if (i != weights.length - 1)
+                System.out.println(",");
+        }
 
         System.out.println();
 
             int[] reversFirst = {1, 2, 3};
             for (int i = reversFirst.length - 1; i >= 0; i--) {
-                if (i != 0)
                 System.out.println(reversFirst[i]);
+                if (i != 0)
+                    System.out.println(",");
             }
         System.out.println();
 
@@ -34,16 +35,20 @@ public class Main {
         double secondWeight = weight [1];
         double thirdWeight = weight [2];
 
-        System.out.println(firstWeight);
-        System.out.println(secondWeight);
-        System.out.println(thirdWeight);
+
+        for (int i = 0; i < weight.length; i++) {
+            System.out.println(weight[i]);
+            if (i != weight.length - 1)
+                System.out.println(",");
+        }
 
         System.out.println();
 
         double [] reversSecond = {1.57, 7.654, 9.986};
         for (int i = reversSecond.length - 1; i >= 0; i--) {
-            if (i != 0)
             System.out.println(reversSecond[i]);
+            if (i != 0)
+                System.out.println(",");
         }
         System.out.println();
 
@@ -60,18 +65,19 @@ public class Main {
         int forthPower = power [3];
         int fifthPower = power [4];
 
-        System.out.println(firstPower);
-        System.out.println(secondPower);
-        System.out.println(thirdPower);
-        System.out.println(forthPower);
-        System.out.println(fifthPower);
+        for (int i = 0; i < power.length; i++) {
+            System.out.println(power[i]);
+            if (i != power.length - 1)
+                System.out.println(",");
+        }
 
         System.out.println();
 
         char [] reversThird = {16, 19, 21, 23, 25};
         for (int i = reversThird.length - 1; i >= 0; i--) {
-            if (i != 0)
             System.out.println(reversThird[i]);
+            if (i != 0)
+                System.out.println(",");
         }
         System.out.println();
 
